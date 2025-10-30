@@ -6,6 +6,10 @@ pnpm create astro@latest -- --template minimal
 
 ## Reproduction steps
 
+### Preflight
+Run `pnpm/npm astro preview`. This will definitely fail, but fonts need to be copied to `dist`. 
+
+### Reproduction
 In one terminal window, run `pnpm/npm astro preview`. This is so that the URL
 will resolve properly. 
 
